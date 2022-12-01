@@ -6,7 +6,7 @@ const ViewBudget = (props) => {
       <span>$ {props.budget}</span>
       <button
         type="button"
-        className="ml-2 hover:text-teal-400"
+        className="ml-2 hover:text-teal-400 text-xl"
         onClick={props.handleEditClick}
       >
         Edit

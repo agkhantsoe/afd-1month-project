@@ -20,9 +20,9 @@ const ExpenseList = () => {
 
   return (
     <>
-      <div className="form-control">
-        <label className="input-group input-group-vertical">
-          <span>Search</span>
+      <div className="form-control "  >
+        <label className="input-group input-group-vertical ">
+          <span className="bg-primary">Search</span>
           <input
             type="text"
             placeholder="Type to search..."
